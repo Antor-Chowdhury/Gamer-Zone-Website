@@ -289,3 +289,31 @@
     left: 1000px;
     top: -200px;
 }
+
+.icon-container {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    margin: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 30vh;
+    align-items: center;
+    text-align: right;
+    gap: 30px;
+}
+
+.icon {
+    text-align: right;
+    border-radius: 50px;
+}
+
+.icon a {
+    text-decoration: none;
+    display: flex;
+    text-align: right;
+    align-items: center;
+    gap: 16px;
+}
+
+.icon a img {
+    width: 50px;
+}
