@@ -317,3 +317,54 @@
 .icon a img {
     width: 50px;
 }
+
+.footer-container {
+    height: 60vh;
+    color: #FFF;
+    background: #6a6280;
+    text-align: center;
+    align-items: center;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 40px;
+}
+
+.footer-logo h3 {
+    font-size: 43px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    padding-top: 40px;
+}
+
+.social-contact {
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    padding-top: 40px;
+    color: #FF42A5;
+}
+
+.other-contact {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 40px;
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.footer-p {
+    position: relative;
+    top: 14px;
+}
