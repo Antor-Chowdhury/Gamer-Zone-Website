@@ -251,6 +251,41 @@
     margin: 48px auto;
     justify-content: center;
 }
-.image-grid .img{
+
+.image-grid .img {
     width: 100%;
+}
+
+.last-section {
+    height: 100vh;
+}
+
+.horse_container {
+    display: flex;
+    text-align: right;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+
+}
+
+.fst-column h2 {
+    font-size: 48px;
+}
+
+.fst-column p {
+    color: #534C64;
+    font-size: 18px;
+    margin: 30px 0px;
+}
+
+.scnd-column img {
+    width: 100%;
+}
+
+.alt-img {
+    width: 15%;
+    position: relative;
+    left: 1000px;
+    top: -200px;
 }
